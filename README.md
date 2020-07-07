@@ -7,7 +7,7 @@ The traditional and preferred method for quantifying microbe populations is by c
 
 (2). To reduce this burden, we aim to develop a program to digitally enumerate the number of colony-forming units using images of the sampled media plates.
 
-![alt text](http://url/to/img.png)
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fscitechdaily.com%2Foscillating-genetic-circuit-a-reliable-clock-for-your-microbiome%2F&psig=AOvVaw3CejpdQQALSfj_ClHFWH-B&ust=1594233231765000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDxnfXju-oCFQAAAAAdAAAAABAI)
 
 ## Methods
 
