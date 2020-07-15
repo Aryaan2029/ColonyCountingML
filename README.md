@@ -58,11 +58,8 @@ The structure of the model that we found worked best was:
 | Layer 1 (C) | 3 filters in | 7 filters out | 5x5 filter |
 | --- | --- | --- | ---|
 | Layer 2 (C)| 7 filters in |20 filters out| 5x5 filter|
-| --- | --- | --- | ---|
 | Layer 3 (FC)| 128 nodes out || |
-| --- | --- | --- | ---|
 | Layer 4 (FC)| 32 nodes out || |
-| --- | --- | --- | ---|
 | Layer 5 (FC)| 1 node out || |
 
 * FC = fully connected
@@ -95,8 +92,8 @@ We see that overall, the kMeans model performed the best. However, this conclusi
 
 ## References
 
-1.     	W.-B. Chen, C. Zhang, An automated bacterial colony counting and classification system. Information Systems Frontiers 11, 349-368 (2009).
-2.     	S. D. Brugger et al., Automated Counting of Bacterial Colony Forming Units on Agar Plates. PLOS ONE 7, e33695 (2012).
+1.  W.-B. Chen, C. Zhang, An automated bacterial colony counting and classification system. Information Systems Frontiers 11, 349-368 (2009).
+2.  S. D. Brugger et al., Automated Counting of Bacterial Colony Forming Units on Agar Plates. PLOS ONE 7, e33695 (2012).
 3.	Ferrari, Alessandro et al., Bacterial colony counting with convolutional neural networks in digital microbiology imaging Pattern Recognition 61, 629-640 (2017). 
 
 
