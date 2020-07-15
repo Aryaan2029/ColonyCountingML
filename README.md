@@ -66,7 +66,7 @@ The image on the left is the real image, and the right one is the image generate
 
 ### CNN
 
-The next method we used is CNNs. To predict, preprocessed data can be fed into a stack of convolution layers that have been trained to learn features that define what it means to be a colony. The result from these can then be fed into several fully connected layers that use these features to determine how many colonies there are.
+The next method we used is CNNs. To predict, preprocessed data can be fed into a stack of convolution layers that have been trained to learn features that define what it means to be a colony. The result from these can then be fed into several fully connected layers that use these features to determine how many colonies there are. 
 
 The structure of the model that we found worked best was:
 
@@ -80,7 +80,7 @@ The structure of the model that we found worked best was:
 
 * C = convolutional
 
-This model was surprising as one would expect more filters in the first layers, however, after manually trying many different approaches this was the one that gave the best results on the validation set. An important note to make is that the CNN was trained on the data generator mentioned above, which was normalized, both w.r.t the images and colony counts.
+This model was surprising as one would expect more filters in the first layers, however, after manually trying many different approaches this was the one that gave the best results on the validation set. An important note to make is that the CNN was trained on the data generator mentioned above, which was normalized, both w.r.t the images and colony counts. The model was trained on 3,000 generated images and its performance was measured on 150 (different) generated images.
 
 ### Boosting
 
