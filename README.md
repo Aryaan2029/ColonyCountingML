@@ -114,9 +114,13 @@ We see that overall, the kMeans model performed the best. However, this conclusi
 ## Contribution
 
 Jihyun Park- Preprocessing, Boosting, Github page
+
 Edward Bateh - Preprocessing, kMeans, Github page
+
 Jackson Harmon - CNN, preprocessing, Github page
+
 Yang Zhang - Preprocessing, kMeans, Github page
+
 Weiyao Tang - Preprocessing, kMeans, Github page
 
 
