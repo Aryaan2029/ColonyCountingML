@@ -54,7 +54,7 @@ Our results are summarized below. In the first table are our predictions for our
 
 ![image](images/cnn_kmeans.png)
 <p align="center">
-  <img width="460" height="300" src="images/boosting.png">
+  <img width="150" height="100" src="images/boosting.png">
 </p>
 
 
