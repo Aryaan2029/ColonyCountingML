@@ -119,7 +119,7 @@ We see that overall, the kMeans model performed the best. However, this conclusi
 
 * Jackson Harmon - CNN, preprocessing, Github page
 
-* Yang Zhang - Preprocessing, kMeans, Github page
+* Yang Zhang - Preprocessing, kMeans, Github page, Colony generation
 
 * Weiyao Tang - Preprocessing, kMeans, Github page
 
