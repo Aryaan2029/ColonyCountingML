@@ -13,7 +13,7 @@ The dataset consists of two groups, training data, and testing data. The trainin
 
 | Real plate image | Generated image |
 | --- | --- |
-| <img width="200"  src="images/generated_image.png"> | <img width="200"  src="images/real_image.png"> |
+| <img width="300"  src="images/generated_images.jpg"> | <img width="300"  src="images/real_image.png"> |
 
 
 ## Preprocessing
@@ -54,7 +54,7 @@ Our results are summarized below. In the first table are our predictions for our
 
 ![image](images/cnn_kmeans.png)
 <p align="center">
-  <img width="200"  src="images/boosting.png">
+  <img width="400"  src="images/boosting.png">
 </p>
 
 
