@@ -13,7 +13,7 @@ The dataset consists of two groups, training data, and testing data. The trainin
 
 | Real plate images | Generated images |
 | --- | --- |
-| images/generated_images.jpg | images/real_image.png |
+| ![image](images/generated_images.jpg) | ![image](images/real_image.png) |
 
 
 ## Preprocessing
