@@ -5,7 +5,7 @@ The traditional and preferred method for quantifying microbe populations is by c
 
 Research technicians typically count the number of colonies by hand, which can number up towards hundreds on a plate. The task of counting is tedious and prone to error. To reduce this burden, we aim to develop a program to digitally enumerate the number of colony-forming units using images of the sampled media plates.
 
-![image](images/github-image.jpg)
+![image](images/github-image.jpg|width = "100")
 
 ## Dataset
 
@@ -13,7 +13,7 @@ The dataset consists of two groups, training data, and testing data. The trainin
 
 | Real plate image | Generated image |
 | --- | --- |
-| ![image](images/generated_images.jpg=50x50) | ![image](images/real_image.png width=50x50) |
+| ![image](images/generated_images.jpg=50x50) | ![image](images/real_image.png=50x50) |
 
 
 ## Preprocessing
