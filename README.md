@@ -57,4 +57,13 @@ Our results are summarized below. In the first table are our predictions for our
   <img width="400"  src="images/boosting.png">
 </p>
 
+## Conclusion
+
+We see that overall, the kMeans model performed the best. However, this conclusion should be taken with a grain of salt considering that (i) we did not train CNN on actual colony images, instead on generated ones and (ii) our validation data set was very small (32 images). Our algorithm can be improved by training CNN on many real colony images. We would expect CNN to outperform kMeans and shift the weighting in its favor in gradient regression boosting. Finally, another suggestion to improve upon our algorithm is to input more methods to count colonies. 
+
+
+## References
+
+
+
 
