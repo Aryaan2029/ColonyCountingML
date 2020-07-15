@@ -36,7 +36,7 @@ The testing data is pre-processed in 3 steps to simplify features.
 We first use Open CFU to get the number of colonies in each petri dish as the actual colony number. Here is the link http://opencfu.sourceforge.net/. 
 Then, from our preprocessed data, we will attempt two methods to quantify the number of colonies:
 
-# KMeans
+### KMeans
 
 Using our preprocessed data, we get the array of pixel values of preprosseeded image. Since the image only contains white and black colors, the pixel value only contains 0 and 255. Based on  the image’s background, we cluster the image with the x and y values of each pixel with value 255(if colonies are white) or value 0(if colonies are black). According to the Open CFU, the maximal colony number is 1200, therefore, we set the maximal k to be 1500 and use a for loop to find the optimal k value with elbow criteria. The k value is the number of colonies on the petri dish. 
 
@@ -44,9 +44,9 @@ The plot image shown below is the k value plot of a colony image with 33 colonie
 
 ![image](images/KMeans.png)
 
-# CNN
+### CNN
 
-# Boosting
+### Boosting
 
 ## Potentional Results
 
