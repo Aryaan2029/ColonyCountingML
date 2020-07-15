@@ -13,7 +13,7 @@ The dataset consists of two groups, training data, and testing data. The trainin
 
 | Real plate image | Generated image |
 | --- | --- |
-| ![image](images/generated_images.jpg|width=100) | ![image](images/real_image.png|width=100) |
+| ![image](images/generated_images.jpg | width=100) | ![image](images/real_image.png | width=100) |
 
 
 ## Preprocessing
@@ -27,7 +27,7 @@ The testing data is pre-processed in 3 steps to simplify features.
 (3).  Resize all images to a standard 400 x 400 pixels in order to run the algorithm under a reasonable time constraint. The computer generated images in the training set do not need to be pre-processed since they were created in the proper format to begin with. 
 
 | Real plate image | Binary image | Binary image without petri|
-| --- | --- |
+| --- | --- | --- |
 | ![image](images/petri.png) | ![image](images/petri2.png) |![image](images/petri3.png) |
 
 
