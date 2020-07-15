@@ -56,7 +56,6 @@ The next method we used is CNNs. To predict, preprocessed data can be fed into a
 The structure of the model that we found worked best was:
 
 | Layer 1 (C) | 3 filters in | 7 filters out | 5x5 filter |
-| --- | --- | --- | ---|
 | Layer 2 (C)| 7 filters in |20 filters out| 5x5 filter|
 | Layer 3 (FC)| 128 nodes out || |
 | Layer 4 (FC)| 32 nodes out || |
