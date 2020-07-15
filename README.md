@@ -13,7 +13,7 @@ The dataset consists of two groups, training data, and testing data. The trainin
 
 | Real plate image | Generated image |
 | --- | --- |
-| ![image](images/generated_images.jpg) | ![image](images/real_image.png) |
+| ![image](images/generated_images.jpg|width=100) | ![image](images/real_image.png|width=100) |
 
 
 ## Preprocessing
@@ -28,7 +28,7 @@ The testing data is pre-processed in 3 steps to simplify features.
 
 | Real plate image | Binary image | Binary image without petri|
 | --- | --- |
-| ![image](images/petri.png) | ![image](images/petri1.png) |![image](images/petri2.png) |
+| ![image](images/petri.png) | ![image](images/petri2.png) |![image](images/petri3.png) |
 
 
 ## Methods
