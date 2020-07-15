@@ -11,7 +11,7 @@ Research technicians typically count the number of colonies by hand, which can n
 
 The dataset consists of two groups, training data, and testing data. The training dataset was generated via a colony-plate image generator. Colony variables that were tuned include the radius, x position, and y position. Radiuses were generated along a standard normal distribution to best emulate real data. The data set used to test the program consists of 32 real plate images taken at a group member’s lab. 
 
-| Real plate images | Generated images |
+| Real plate image | Generated image |
 | --- | --- |
 | ![image](images/generated_images.jpg) | ![image](images/real_image.png) |
 
@@ -25,6 +25,10 @@ The testing data is pre-processed in 3 steps to simplify features.
 (2).  Remove the petri dish perimeter so that only the microbe colonies appear in the foreground (white). Connected units of white pixels that exceeded a certain size in proportion to the image size were classified as the petri-dish pixels and removed from the final output via masking
 
 (3).  Resize all images to a standard 400 x 400 pixels in order to run the algorithm under a reasonable time constraint. The computer generated images in the training set do not need to be pre-processed since they were created in the proper format to begin with. 
+
+| Real plate image | Binary image | Binary image without petri|
+| --- | --- |
+| ![image](images/petri.png) | ![image](images/petri1.png) |![image](images/petri2.png) |
 
 
 ## Methods
