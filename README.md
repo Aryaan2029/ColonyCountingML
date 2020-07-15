@@ -42,7 +42,12 @@ Using our preprocessed data, we get the array of pixel values of preprosseeded i
 
 The plot image shown below is the k value plot of a colony image with 33 colonies. From the plot we can see that the optila k value is around 3 and 4, which means the estimated colony number is around 30 to 40.
 
-![image](images/k-plot.png)
+![image](images/KMeans.png)
+
+# CNN
+
+# Boosting
+
 ## Potentional Results
 
 We aim to have a program that can count the number of colony forming units based on the images of sample media plates. One checkpoint we will have is to implement the support vector machine to classify each pixel in images by July 7th. 
