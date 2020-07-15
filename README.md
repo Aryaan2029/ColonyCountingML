@@ -33,12 +33,16 @@ The testing data is pre-processed in 3 steps to simplify features.
 
 ## Methods
 
-We will preprocess our dataset (3) to contrast the background and colonies and remove noise. We will then develop a support vector machine to classify each pixel in the image as either part of the background or a colony. From our preprocessed data, we will attempt two methods to quantify the number of colonies: 
+We first use Open CFU to get the number of colonies in each petri dish as the actual colony number. Here is the link http://opencfu.sourceforge.net/. 
+Then, from our preprocessed data, we will attempt two methods to quantify the number of colonies:
 
-     (i) A clustering algorithm where the number of clusters equals the number of bacteria colonies 
-     
-     (ii) Using convolution neural networks for more robust results that can potentially support more edge cases. CNNs can potentially extract features not observed in the other methods, which can be combined through ensemble learning such as boosting. Finally, we'll analyze which algorithms provide effective results and then combine them using boosting methods. 
+# KMeans
 
+Using our preprocessed data, we get the array of pixel values of preprosseeded image. Since the image only contains white and black colors, the pixel value only contains 0 and 255. Based on  the image’s background, we cluster the image with the x and y values of each pixel with value 255(if colonies are white) or value 0(if colonies are black). According to the Open CFU, the maximal colony number is 1200, therefore, we set the maximal k to be 1500 and use a for loop to find the optimal k value with elbow criteria. The k value is the number of colonies on the petri dish. 
+
+The plot image shown below is the k value plot of a colony image with 33 colonies. From the plot we can see that the optila k value is around 3 and 4, which means the estimated colony number is around 30 to 40.
+
+![image](images/k-plot.png)
 ## Potentional Results
 
 We aim to have a program that can count the number of colony forming units based on the images of sample media plates. One checkpoint we will have is to implement the support vector machine to classify each pixel in images by July 7th. 
