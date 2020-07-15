@@ -1,7 +1,7 @@
 ## Introduction
 
 
-The traditional and preferred method for quantifying microbe populations is by colony enumeration. This process involves serially diluting liquefied samples, plating the samples on media plates, and counting the resulting colony-forming units. Assuming each colony-forming unit originates from a single microbe, the number of microbes can then be back-calculated 
+The traditional and preferred method for quantifying microbe populations is by colony enumeration. This process involves serially diluting liquefied samples, plating the samples on media plates, and counting the resulting colony-forming units. Assuming each colony-forming unit originates from a single microbe, the number of microbes can then be back-calculated. We aimed to improve upon previous results, listed in the references section, through the use of boosting
 
 Research technicians typically count the number of colonies by hand, which can number up towards hundreds on a plate. The task of counting is tedious and prone to error. To reduce this burden, we aim to develop a program to digitally enumerate the number of colony-forming units using images of the sampled media plates.
 
@@ -42,7 +42,7 @@ Using our preprocessed data, we get the array of pixel values of preprocessed im
 
 The plot image shown below is the k value plot of a colony image with 33 colonies. From the plot we can see that the optimal k value is around 30 and 40, which means the estimated colony number is around 30 to 40.
 
-<img src="images/precise-k-plot.png"> 
+<img src="images/k-plot-new.png"> 
 
 
 
