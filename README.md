@@ -40,7 +40,7 @@ Then, from our preprocessed data, we will attempt two methods to quantify the nu
 
 Using our preprocessed data, we get the array of pixel values of preprocessed image. Since the image only contains white and black colors, the pixel value only contains 0 and 255. Based on  the image’s background, we cluster the image with the x and y values of each pixel with value 255(if colonies are white) or value 0(if colonies are black). According to the Open CFU, the maximal colony number is 1200, therefore, we set the maximal k to be 1500 and use a for loop to find the optimal k value with elbow criteria. The k value is the number of colonies on the petri dish. 
 
-The plot image shown below is the k value plot of a colony image with 33 colonies. From the plot we can see that the optimal k value is around 3 and 4, which means the estimated colony number is around 30 to 40.
+The plot image shown below is the k value plot of a colony image with 33 colonies. From the plot we can see that the optimal k value is around 30 and 40, which means the estimated colony number is around 30 to 40.
 
 <img src="images/precise-k-plot.png"> 
 
