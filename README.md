@@ -111,5 +111,15 @@ We see that overall, the kMeans model performed the best. However, this conclusi
 3.	Ferrari, Alessandro et al., Bacterial colony counting with convolutional neural networks in digital microbiology imaging Pattern Recognition 61, 629-640 (2017). 
 
 
+## Contribution
+
+Jihyun Park- Preprocessing, Boosting, Github page
+Edward Bateh - Preprocessing, kMeans, Github page
+Jackson Harmon - CNN, preprocessing, Github page
+Yang Zhang - Preprocessing, kMeans, Github page
+Weiyao Tang - Preprocessing, kMeans, Github page
+
+
+
 
 
