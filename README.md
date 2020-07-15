@@ -53,6 +53,8 @@ The plot image shown below is the k value plot of a colony image with 33 colonie
 Our results are summarized below. In the first table are our predictions for our two models-kMeans and CNN-and the combined results after using gradient boosting regression. From boosting, we found that the kmeans model had much more weight (0.96) in comparison to CNN (0.04). The difference in weight is due to the predictive accuracy of each model. Kmeans performed better than CNN in predicting the colony images. The CNN model seems to perform better at lower colony counts, but fails at higher numbers on real colony images. We expected this failure from CNN because we did not have enough real colony images to train CNN and instead it was trained on generated images. The second table below summarizes the performance of each of the models by comparing their root mean square error to the “true” count predictions (Open CFU counts). 
 
 ![image](images/cnn_kmeans.png)
-![image](images/boosting.png)
+<p align="center">
+  <img width="460" height="300" src="images/boosting.png">
+</p>
 
 
