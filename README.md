@@ -7,7 +7,7 @@ The traditional and preferred method for quantifying microbe populations is by c
 
 (2). To reduce this burden, we aim to develop a program to digitally enumerate the number of colony-forming units using images of the sampled media plates.
 
-![image](https://www.interscience.cn/IMG/jpg/scan_petridish_web.jpg?1572/366b58c4d421435cdc8fafe0428f293f528dd2bf)
+![image](images/githubimage1.jpg)
 
 ## Methods
 
