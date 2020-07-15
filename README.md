@@ -11,6 +11,10 @@ Research technicians typically count the number of colonies by hand, which can n
 
 The dataset consists of two groups, training data, and testing data. The training dataset was generated via a colony-plate image generator. Colony variables that were tuned include the radius, x position, and y position. Radiuses were generated along a standard normal distribution to best emulate real data. The data set used to test the program consists of 32 real plate images taken at a group member’s lab. 
 
+| Real plate images | Generated images |
+| --- | --- |
+| images/generated_images.jpg | images/real_image.png |
+
 
 ## Preprocessing
 
